@@ -11,8 +11,8 @@ const Profile: React.FC = () => {
     <>
       <Header>
         <a href="/">
-          <img src={icon} alt="icon" />
           <h3>Bárbara Casac</h3>
+          <img src={icon} alt="icon" />
         </a>
         <a href="/repository">
           Projects
@@ -23,9 +23,10 @@ const Profile: React.FC = () => {
       <Description>
         <img src={profile} alt="profile" />
         <p>
-          Hey! Eu sou a Bárbara, curiosa e sempre pronta a aprender algo novo.
-          Amo a área de tecnologia, pois ajudo as pessoas de alguma forma com o
-          meu código.
+          Hey! I am a Software Developer, curious and always ready to learn
+          something new. I love the technology area, because I help people in
+          some way with my code. To my mind when I teach it is time to challenge
+          my knowledge.
         </p>
       </Description>
 

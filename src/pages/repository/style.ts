@@ -27,9 +27,15 @@ export const Header = styled.header`
 `;
 
 export const RepositoryInfo = styled.div`
+  margin-top: 50px;
+  margin-left: 30px;
+  font-family: Helvetica;
+
+  h3 {
+    color: #000;
+  }
+
   a {
-    margin-top: 50px;
-    margin-left: 30px;
     background: #fff;
     border-radius: 5px;
     border: 1px solid #1c1c1c;
@@ -69,6 +75,28 @@ export const RepositoryInfo = styled.div`
     svg {
       margin-left: auto;
       color: #cbcbd6;
+    }
+    ul {
+      list-style: none;
+      display: flex;
+      padding-left: 0;
+
+      li {
+        & + li {
+          margin-left: 30px;
+        }
+        strong {
+          display: block;
+          font-size: 20px;
+          color: #3d3d4d;
+        }
+
+        span {
+          display: block;
+          margin-top: 4px;
+          color: #6c6c80;
+        }
+      }
     }
   }
 `;

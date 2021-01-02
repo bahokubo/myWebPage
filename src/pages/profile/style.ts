@@ -40,7 +40,7 @@ export const Description = styled.section`
   p {
     font-family: Helvetica;
     color: #a8a8b3;
-    width: 9em;
+    width: 15em;
     text-align: center;
     font-size: 18px;
   }

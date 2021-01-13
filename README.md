@@ -1,4 +1,4 @@
-<h2> Repositório criado para o Live Coding de 04/01/21 da Digital Innovation One</h2>
+<h1> Repositório criado para o Live Coding de 04/01/21 da Digital Innovation One</h1>
 
 <h3>Configuração de Ambiente</h3>
 
@@ -8,11 +8,13 @@
 
 ```jsx
 npm create react-app primeiro-projeto-react --template=typescript
-cd nome da pasta
-npm/yarn start
+cd primeiro-projeto-react
+yarn start
 ```
 
 <h3>Organizar a estrutura do projeto</h3>
+<img src="image01.PNG"/>
+
 
 - Instalar o react-route-dom para a configuração das rotas do projeto
 
@@ -41,10 +43,12 @@ export default App;
 - Criar routes.tsx
 - Criar as páginas da aplicação e colocar a constante do Function Component React.FC
 - Para a definição das rotas
-- Instale o @types do react router dom 
+- Instale o @types do react-router-dom 
+
 ```jsx
 yarn add @types/react-router-dom
 ```
+
 - Crie as duas rotas da nossa aplicação
 ```jsx
 import React from "react";
@@ -64,7 +68,6 @@ export default Routes;
 ```
 
 <h3>Adicione a biblioteca para estilizar o seu site</h3>
-- [https://react-icons.github.io/react-icons/](https://react-icons.github.io/react-icons/)
 
 ```jsx
 yarn add styled-components -D
@@ -72,7 +75,7 @@ yarn add react-icons -D
 ```
 
 - Criar as páginas da aplicação
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5cd3a1f4-0d59-4fe7-8520-74d748a58fc5/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5cd3a1f4-0d59-4fe7-8520-74d748a58fc5/Untitled.png)
+<img src="image02.PNG"/>
 
 - Criar o useEffect
 

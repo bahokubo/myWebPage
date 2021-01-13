@@ -13,7 +13,8 @@ yarn start
 ```
 
 <h3>Organizar a estrutura do projeto</h3>
-<img src="image01.PNG"/>
+
+<img src="image02.PNG"/>
 
 
 - Instalar o react-route-dom para a configuração das rotas do projeto
@@ -40,10 +41,10 @@ const App: React.FC = () => (
 export default App;
 ```
 <h3>Criar Rotas</h3>
-- Criar routes.tsx
-- Criar as páginas da aplicação e colocar a constante do Function Component React.FC
-- Para a definição das rotas
-- Instale o @types do react-router-dom 
+-   Criar routes.tsx
+-   Criar as páginas da aplicação e colocar a constante do Function Component React.FC
+-   Para a definição das rotas
+-   Instale o @types do react-router-dom 
 
 ```jsx
 yarn add @types/react-router-dom
@@ -75,7 +76,7 @@ yarn add react-icons -D
 ```
 
 - Criar as páginas da aplicação
-<img src="image02.PNG"/>
+<img src="image03.PNG"/>
 
 - Criar o useEffect
 

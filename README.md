@@ -24,22 +24,6 @@ yarn add react-router-dom -D
 criar a pasta routes
 ```
 
-- Organizar o App.tsx
-
-```jsx
-import React from "react";
-import Routes from "./routes";
-
-import { BrowserRouter } from "react-router-dom";
-
-const App: React.FC = () => (
-  <BrowserRouter>
-    <Routes />
-  </BrowserRouter>
-);
-
-export default App;
-```
 <h3>Criar Rotas</h3>
 -   Criar routes.tsx
 -   Criar as páginas da aplicação e colocar a constante do Function Component React.FC
@@ -66,6 +50,23 @@ const Routes: React.FC = () => (
 );
 
 export default Routes;
+```
+
+- Organizar o App.tsx
+
+```jsx
+import React from "react";
+import Routes from "./routes";
+
+import { BrowserRouter } from "react-router-dom";
+
+const App: React.FC = () => (
+  <BrowserRouter>
+    <Routes />
+  </BrowserRouter>
+);
+
+export default App;
 ```
 
 <h3>Adicione a biblioteca para estilizar o seu site</h3>

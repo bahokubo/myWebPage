@@ -16,6 +16,8 @@ yarn start
 
 <img src="image02.PNG"/>
 
+- Crie os componentes do nosso projeto: Profile e Repository
+
 
 - Instalar o react-route-dom para a configuração das rotas do projeto
 
